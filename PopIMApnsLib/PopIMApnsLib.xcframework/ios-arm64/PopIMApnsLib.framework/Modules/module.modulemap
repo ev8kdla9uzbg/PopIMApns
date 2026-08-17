@@ -1,0 +1,4 @@
+framework module PopIMApnsLib {
+  header "PopIMApnsLib-Swift.h"
+  requires objc
+}
