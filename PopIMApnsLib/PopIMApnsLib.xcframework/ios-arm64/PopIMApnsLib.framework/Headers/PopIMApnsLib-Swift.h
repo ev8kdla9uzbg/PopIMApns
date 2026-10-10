@@ -308,7 +308,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSString;
 SWIFT_CLASS("_TtC12PopIMApnsLib15PopIMApnsLibSDK")
 @interface PopIMApnsLibSDK : NSObject
-+ (void)didReceiveWithUserInfo:(NSDictionary<NSString *, id> * _Nonnull)userInfo;
+/// 到达上报，再消息拓展服务NotificationService-didReceive方法中调用
+/// @param userInfo 通知传参数，对应的是didReceive-request.content.userInfo
+/// @param completion 处理完结的回调，请再回调之后再回调系统的完结：contentHandler(bestAttemptContent）
+/// 具体例子：
+/// override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
+/// self.contentHandler = contentHandler
+/// bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
+/// //消息到达上报，上报完成后再回调通知内容
+/// PopIMApnsLibSDK.didReceive(userInfo: (bestAttemptContent?.userInfo as? [String: Any]) ?? [:]) { [weak self] in
+/// if let bestAttemptContent = self?.bestAttemptContent {
+/// contentHandler(bestAttemptContent)
+/// }
+/// }
+/// }
++ (void)didReceiveWithUserInfo:(NSDictionary<NSString *, id> * _Nonnull)userInfo completion:(void (^ _Nonnull)(void))completion;
+/// sdk的构建版本
++ (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
+/// sdk的构建时间
++ (NSString * _Nonnull)buildVersion SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
