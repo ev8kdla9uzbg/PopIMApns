@@ -251,67 +251,67 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 7,
-      "value": "\"1.0.5\""
+      "value": "\"1.0.6\""
     },
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 14,
-      "value": "\"202610100935\""
+      "value": "\"202610281050\""
     },
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 20,
       "value": "\"PopIMPrimaryDomain\""
     },
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "StringLiteral",
       "offset": 466,
       "length": 18,
       "value": "\"api.kb35ucer.com\""
     },
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 73,
       "value": "\"https:\/\/raw.githubusercontent.com\/ev8kdla9uzbg\/network\/main\/domain.json\""
     },
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "StringLiteral",
       "offset": 638,
       "length": 26,
       "value": "\"https:\/\/api.pop-chat.net\""
     },
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "IntegerLiteral",
       "offset": 706,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "FloatLiteral",
       "offset": 836,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.7\/PopIMApnsLib\/PopNotificationRequestHander.swift",
+      "filePath": "\/Users\/ong\/Desktop\/1project\/im-1.1.8\/PopIMApnsLib\/PopNotificationRequestHander.swift",
       "kind": "StringLiteral",
       "offset": 876,
-      "length": 57,
-      "value": "\"\/im-biz-common-message\/im\/biz\/common\/push\/report\/arrive\""
+      "length": 64,
+      "value": "\"\/im-biz-common-message\/im\/biz\/common\/push\/report\/arrive?os=iOS\""
     }
   ]
 }
